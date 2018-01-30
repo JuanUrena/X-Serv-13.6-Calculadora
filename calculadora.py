@@ -10,4 +10,4 @@ print (argv)
 print (sys.argv[2])
 
 
-sys.exit("El programa acaba")
+sys.exit("El programa acaba hola")
