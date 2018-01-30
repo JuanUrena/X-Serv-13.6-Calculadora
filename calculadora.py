@@ -9,13 +9,13 @@ num1 = float((argv[2]))
 num2 = float((argv[3]))
 # Compruebo el valor de la operacion para llevarla acabo
 try:
-    if operacion =='suma':
+    if operacion == 'suma':
         Resultado = num1+num2
-    elif operacion =='resta':
+    elif operacion == 'resta':
         Resultado = num1-num2
-    elif operacion =='multiplicacion':
+    elif operacion == 'multiplicacion':
         Resultado = num1*num2
-    elif operacion =='division':
+    elif operacion == 'division':
         Resultado = num1/num2
     else:
         print('caso especial consultar a Pacheco')
