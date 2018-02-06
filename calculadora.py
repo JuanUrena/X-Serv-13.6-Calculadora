@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Juan Ureña García-Gasco_Calculadora
 import sys
 # tomar datos desde la ejecucion del programa
 from sys import argv
