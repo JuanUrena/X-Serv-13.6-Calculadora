@@ -25,7 +25,6 @@ try:
     else:
         print('Operacón no detectada')
         print('Pruebe con "suma", "resta", "multiplicacion" o "division"')
-    
 except ZeroDivisionError:
     print("Error: No se puede dividir entre cero")
 except IndexError:
@@ -34,4 +33,3 @@ except IndexError:
 except ValueError:
     print('Error: La entrada debe ser:')
     print('python3 calculadora.py <operación> <num1> <num2>')
-    
