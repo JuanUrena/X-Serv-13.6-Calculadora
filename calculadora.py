@@ -23,12 +23,15 @@ try:
         Resultado = num1/num2
         print(Resultado)
     else:
-        print('Operacón no detectada, pruebe con "suma", "resta", "multiplicacion" o "division"')
+        print('Operacón no detectada')
+        print('Pruebe con "suma", "resta", "multiplicacion" o "division"')
     
 except ZeroDivisionError:
     print("Error: No se puede dividir entre cero")
 except IndexError:
-    print('Error: La entrada debe ser: python3 calculadora.py <operación> <num1> <num2>') 
+    print('Error: La entrada debe ser:' 
+    print('python3 calculadora.py <operación> <num1> <num2>') 
 except ValueError:
-    print('Error: La entrada debe ser: python3 calculadora.py <operación> <num1> <num2>') 
+    print('Error: La entrada debe ser:') 
+    print('python3 calculadora.py <operación> <num1> <num2>') 
     
